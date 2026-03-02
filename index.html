@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Portfolio.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="container text-center text-white">
+            <h1 class="display-3 fw-bold">Hello, I'm a Wajid Ali</h1>
+            <p class="lead">Building modern web interfaces and functional programs.</p>
+            <a href="#projects" class="btn btn-primary btn-lg mt-3">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 mt-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-5 text-center mb-4 mb-md-0">
+                    <img src="https://via.placeholder.com/350" alt="Profile" class="img-fluid rounded-circle shadow">
+                </div>
+                <div class="col-md-7">
+                    <p class="fs-5">I am a passionate student and developer constantly learning new technologies. I enjoy solving problems, designing layouts, and turning ideas into reality through code.</p>
+                    <h5 class="mt-4 fw-bold">My Tech Stack</h5>
+                    <div class="d-flex flex-wrap gap-2 mt-3">
+                        <span class="badge bg-dark">HTML5</span>
+                        <span class="badge bg-dark">CSS3</span>
+                        <span class="badge bg-primary">Bootstrap</span>
+                        <span class="badge bg-warning text-dark">Python</span>
+                        <span class="badge bg-info text-dark">C Programming</span>
+                        <span class="badge bg-secondary">Databases</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5 bg-light mt-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">My Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Web UI Clones</h5>
+                            <p class="card-text text-muted">Pixel-perfect layouts of popular websites and custom login pages using HTML, CSS, and Bootstrap framework.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Python Scripts</h5>
+                            <p class="card-text text-muted">Utility applications, logic exercises, and networking tools built using Python.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">C Programs</h5>
+                            <p class="card-text text-muted">Core programming concepts, algorithms, and terminal-based applications built during coursework.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 mt-5 mb-5">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form class="shadow p-4 rounded bg-white">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100 fw-bold">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <p class="mb-0">&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
